@@ -53,7 +53,7 @@ for e in range(epoch):
     plt.pause(0.01)
 
     if e % 100 == 0:
-        model.save(f"snake_model_{e}.h5")
+        model.save(f"saved_model/snake_model_{e}.keras")
 
 env.close()
 plt.ioff()

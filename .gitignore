@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Logs and cache
+*.log
+*.npy
+*.h5
+.DS_Store
+
+# Matplotlib cache
+.matplotlib/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Ignore saved models
+saved_model/
